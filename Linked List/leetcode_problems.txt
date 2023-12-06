@@ -1,0 +1,25 @@
+Find the middle node in linked list:
+https://leetcode.com/problems/middle-of-the-linked-list/
+
+Find if there is any cycle in the Linked List:
+https://leetcode.com/problems/linked-list-cycle/
+
+Return the node where the cycle begins, if there is any.:
+https://leetcode.com/problems/linked-list-cycle-ii/
+
+Find Kth Node from end:
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+
+partition the list:
+https://leetcode.com/problems/partition-list/
+
+remove duplicates:
+https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+-> also try code a method to remove duplicates from unsorted linked list
+
+binary to decimal:
+https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
+
+reverse linked list between indexes:
+https://leetcode.com/problems/reverse-linked-list-ii/
