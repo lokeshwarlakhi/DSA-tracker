@@ -26,19 +26,20 @@ class Queue:
         self.length += 1
 
     def dequeue(self):
-        if self.length <= 1:
-            if self.first is None:
-                return None
-            self.first.next = None
-            self.last.next = None
+        if self.length == 0:
+            return None
+        temp = self.first
+        if self.length == 1:
+            self.first = None
+            self.last = None
         else:
-            temp = self.first
             self.first = temp.next
             temp.next = None
         self.length -= 1
-        return temp
-myq= Queue(30)
+        return temp.value
+myq= Queue(1)
 myq.enqueue(2)
-myq.enqueue(2)
-myq.dequeue()
+print(myq.dequeue())
+print(myq.dequeue())
+print(myq.dequeue())
 myq.print_queue()
