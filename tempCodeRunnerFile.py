@@ -1,0 +1,2 @@
+
+            temp = self.first
